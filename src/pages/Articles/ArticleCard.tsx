@@ -40,7 +40,7 @@ const ArticleCard = (props:ArticleCardProps) => {
         />
         <div style={{fontSize:"1.2rem"}}>
           {props.tags.map((tag)=>
-            <Badge bg="info" style={{marginLeft:".5rem"}}>{tag.toUpperCase()}</Badge>
+            <Badge bg="info" style={{marginLeft:".5rem"}} key={tag}>{tag.toUpperCase()}</Badge>
           )}
         </div>
         <br/>

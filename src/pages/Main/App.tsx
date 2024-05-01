@@ -5,7 +5,7 @@ import SideBarMenu from '../../components/Sidebar/SideBarMenu';
 import Header from '../../components/Header';
 import ArticleContent from '../Articles/Articles';
 import About from '../About';
-import { Route, BrowserRouter as Router, Routes,  } from 'react-router-dom';
+import { Route, HashRouter as Router, Routes } from 'react-router-dom';
 
 function App() {
   return (<>
