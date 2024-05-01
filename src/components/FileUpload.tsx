@@ -1,10 +1,9 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Button, Col, Form, Row } from 'react-bootstrap';
 
 interface FileUploadProps {
   onFileChange : (content:string | ArrayBuffer | null) => void
 }
-
 
 export const FileUpload = (props:FileUploadProps) => {
   const [file,setFile] = useState(null)
