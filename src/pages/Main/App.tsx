@@ -18,8 +18,8 @@ function App() {
         <Col sm={11} id="content-window">
           <Router>
             <Routes>
-              <Route index path="/articles" element={<ArticleContent/>} />
-              <Route path="/about" element={<About/>} />
+              <Route index path="articles" element={<ArticleContent/>} />
+              <Route path="about" element={<About/>} />
             </Routes>
           </Router>
         </Col>

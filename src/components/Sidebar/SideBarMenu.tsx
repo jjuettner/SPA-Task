@@ -23,7 +23,7 @@ export function MenuEntry(props:MenuEntryProps) {
     <Row>
       <Col>
           <Nav.Item>
-            <Nav.Link eventKey={props.eventkey} href={`/#${props.href}`} className='sidebar-heading'>
+            <Nav.Link eventKey={props.eventkey} href={`/#/${props.href}`} className='sidebar-heading'>
               {props.label}
             </Nav.Link>
           </Nav.Item>
