@@ -20,15 +20,11 @@ interface MenuEntryProps {
 
 export function MenuEntry(props:MenuEntryProps) {
   return (
-    <Row>
-      <Col>
-          <Nav.Item>
-            <Nav.Link eventKey={props.eventkey} href={`#/${props.href}`} className='sidebar-heading'>
-              {props.label}
-            </Nav.Link>
-          </Nav.Item>
-      </Col>
-    </Row>
+    <Nav.Item>
+      <Nav.Link eventKey={props.eventkey} href={`#/${props.href}`} className='sidebar-heading'>
+        {props.label}
+      </Nav.Link>
+    </Nav.Item>
   );
 }
 
