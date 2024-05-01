@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/SPA-Task/static/css/main.0b44a8c2.css",
-    "main.js": "/SPA-Task/static/js/main.6c9abda9.js",
+    "main.js": "/SPA-Task/static/js/main.ed01c837.js",
     "static/js/453.d6cc32c8.chunk.js": "/SPA-Task/static/js/453.d6cc32c8.chunk.js",
     "index.html": "/SPA-Task/index.html",
     "main.0b44a8c2.css.map": "/SPA-Task/static/css/main.0b44a8c2.css.map",
-    "main.6c9abda9.js.map": "/SPA-Task/static/js/main.6c9abda9.js.map",
+    "main.ed01c837.js.map": "/SPA-Task/static/js/main.ed01c837.js.map",
     "453.d6cc32c8.chunk.js.map": "/SPA-Task/static/js/453.d6cc32c8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0b44a8c2.css",
-    "static/js/main.6c9abda9.js"
+    "static/js/main.ed01c837.js"
   ]
 }
