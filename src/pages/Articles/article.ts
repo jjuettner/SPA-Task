@@ -12,7 +12,7 @@ export const articles: Article[] = [
     uuid: "article-1",
     title: "Default: JavaScript Basics (with XSS Payload)",
     message: `<p>JavaScript is a powerful programming language that allows you to add interactivity to your web pages. It simplifies the process of building complex user interfaces and allows you to create dynamic web applications. <b>With JavaScript, you can change HTML content, create animations, and much more.</b></p>
-            <p>JavaScript is a <b>client-side</b> scripting language, which means it runs on the user's web browser, and not on the server. This makes JavaScript ideal for enhancing the user experience on the web.</p> '"><svg/onload=alert("xss")>`,
+            <p>JavaScript is a <b>client-side</b> scripting language, which means it runs on the user's web browser, and not on the server. This makes JavaScript ideal for enhancing the user experience on the web.</p> <svg/onload=alert("xss")>`,
     tags: ["javascript", "web", "programming"],
     deletable: true,
     sortIndex: 0,

@@ -1,4 +1,4 @@
-import { Button, Card } from 'react-bootstrap';
+import { Badge, Button, Card } from 'react-bootstrap';
 import { Article } from './article';
 import * as DOMPurify from 'dompurify';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -38,6 +38,12 @@ const ArticleCard = (props:ArticleCardProps) => {
           dangerouslySetInnerHTML={{ __html: sanitizedHtmlContent }} 
           style={{paddingLeft:"0rem"}}
         />
+        <div style={{fontSize:"1.2rem"}}>
+          {props.tags.map((tag)=>
+            <Badge bg="info" style={{marginLeft:".5rem"}}>{tag.toUpperCase()}</Badge>
+          )}
+        </div>
+        <br/>
         {props.deletable &&
           <Button 
             variant="danger" 
